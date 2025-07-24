@@ -115,11 +115,13 @@ body {
 
 .big-flower {
     max-width: 100%;
+    overflow: hidden;
 }
 
 .big-flower img {
     max-width: 100%;
     margin-right: 35px;
+    overflow: hidden;
 }
 
 
@@ -355,12 +357,14 @@ body {
         justify-content: center;
         align-items: center;
         margin-left: 15px;
+        overflow: hidden;
     }
 
     .flower-plant-details {
         padding: 47px;
         max-width: 400px;
         margin-top: -20px;
+        /* margin-bottom: 300px; */
     }
 
     .flower-plant-details h2 {
@@ -433,6 +437,7 @@ body {
     border-radius: 15px;
     color: white;
     /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* Picture dark little bit */
@@ -451,7 +456,7 @@ body {
 .offer-box {
     width: 390px;
     height: 190px;
-
+    overflow: hidden;
 }
 
 .right-box {
@@ -568,6 +573,7 @@ body {
     font-weight: 500;
     margin-top: px;
     margin-left: -10px;
+    /* margin-right: 300px; */
 
 
 }
@@ -602,11 +608,19 @@ body {
 
     .colorful-bunch-section {
         width: 500px;
+        overflow: hidden;
 
     }
 
     .search-container {
         margin-right: 80px;
+    }
+
+    .search-container button {
+        display: flex;
+
+
+        /* padding-left: 30px; */
     }
 
 }
@@ -626,7 +640,7 @@ body {
 }
 
 .logo-part {
-    margin-top: -50px;
+    /* margin-top: -50px; */
     max-width: 350px;
 }
 
@@ -659,7 +673,8 @@ body {
 }
 
 .social-icons {
-    margin-top: -210px;
+    /* margin-top: -210px; */
+    margin-bottom: 230px;
     display: flex;
     gap: 40px;
 
@@ -673,6 +688,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin-top: 30px;
 
     }
 
@@ -683,14 +699,15 @@ body {
     }
 
     .footer-item a {
-        margin-left: -150px;
+        /* margin-left: -150px; */
+        padding-right: 240px;
 
     }
 
     .footer-link li {
         color: rgba(107, 114, 128, 1);
-        margin-left: -150px;
-
+        /* margin-left: -150px; */
+        padding-right: 230px;
     }
 
     .footer-link {
@@ -702,34 +719,14 @@ body {
         align-items: center;
         margin-top: 0;
         gap: 15px;
-        margin-left: -140px;
+        padding-right: 140px;
+        /* margin-left: -140px; */
         margin-top: -30px;
     }
 
 
 
 
-}
-
-@media (max-width: 768px) {
-
-    body,
-    html {
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-
-    /* Optional: Also prevent scrollbar for specific container if needed */
-    .container {
-        overflow-x: hidden;
-    }
-}
-
-@media (max-width: 768px) {
-    .big-flower {
-        width: 100%;
-        margin-left: 0;
-    }
 }
 
 /* Single section and single section responsive done */
